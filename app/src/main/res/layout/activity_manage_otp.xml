@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBF7DB2E"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ManageOTP">
+
+    <EditText
+        android:id="@+id/etOTP"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="######"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnVerifyOTP"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_margin="10dp"
+        android:background="#FFC107"
+        android:text="Verify OTP" />
+</LinearLayout>
